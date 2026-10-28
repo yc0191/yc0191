@@ -1,16 +1,43 @@
-## Hi there 👋
+# 정예찬
 
-<!--
-**yc0191/yc0191** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+![Backend](https://img.shields.io/badge/Backend-1c2630?style=for-the-badge) ![Frontend](https://img.shields.io/badge/Frontend-1c2630?style=for-the-badge)
 
-Here are some ideas to get you started:
+## 경력
+**주식회사 디원더 (빌딩케어)** · 2022.02 – 2026.06 (4년 5개월)
+B2B 건물 임대 관리 SaaS · 백엔드부터 프론트엔드까지 단독 개발·운영
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 개발
+
+**공과금 — 3년간 리팩토링·리뉴얼한 핵심 도메인**
+- 월별 청구·안분 → 한전·수도 검침 자동 수집 → 상위/하위 계량기 계층까지 단계적 확장
+- 마이그레이션마다 기존·신규 계산 결과 비교 화면으로 정합성 검증, N+1 문제 해결
+
+**AI 코딩 워크플로우 — AI 생성 코드 품질 관리 체계 설계**
+- 엔티티별 도메인 룰북으로 비즈니스 규칙 명문화
+- 구현 → 코드 리뷰 → 테스트 → 도메인 규칙 확인으로 이어지는 리뷰 사이클과 self-verify 검증 루프 운영
+- 리뷰에서 발견한 실수를 룰 후보로 누적 → 다음 작업에 반영하는 자체 개선 루프 구축 (거절 사유 기록으로 같은 후보 재상정 방지)
+
+**로깅·지표 — 모니터링 도구 없이 관측 체계 직접 구축**
+- AOP 기반 API 실행 이력 자동 기록, 사용자 행동·에러 로그 OpenSearch 적재
+- 일별 지표 집계, Slack 운영 알림 연동
+
+### 문제 해결
+
+**임차인 소통 — 버튼 하나에서 독립 도메인으로**
+- 사용 로그·고객 인터뷰로 고객도 인지하지 못한 불편 발견 (임차인과의 소통 내역을 개인 카카오톡에서 검색)
+- 공지 버튼에서 민원·양방향 소통 도메인으로 기획, 3차에 걸쳐 단계 배포 → 신규 고객 10여 곳 확보
+
+**알림톡 플랫폼 이전 — 확장성 문제를 업셀링으로 연결**
+- 고객사 자체 프로필 발송 요구 → 프로필마다 템플릿을 복제해야 하는 구조적 문제 확인
+- 공개 문서에 없던 그룹 프로필 기능 직접 발굴·업체 컨택, NCP → BizM 이전으로 해결
+
+## 진행 중
+**stock-reading** (비공개) — 관심 ETF가 움직인 이유를 근거와 함께 알려 주는 개인용 주식 비서
+- Kafka 이벤트 기반 MSA(Java·Spring Boot + Python 브리핑), 수집 → 변동 감지 → 브리핑 → 이메일 MVP 로컬 동작
+- 인과 순서 보장: 변동 시각 이후에 나온 뉴스는 원인 근거에서 제외, 테스트로 검증
+- LLM 설계 원칙: 계산·인증은 코드가 담당, LLM에는 공개 정보만 전달하고 개인 금액·수량은 노출하지 않음
+- 안전한 기본값: 발송 드라이런 기본, 시간당 한도·중복 방지·주소 마스킹, 비밀은 AWS Parameter Store로 분리
+- 설계 결정 15건을 ADR로 기록 · 다음 단계는 실제 시세·뉴스 연동과 RAG(pgvector) 기반 근거 검색
+
+## 기술
+Spring Boot · Java · React · TypeScript · Elasticsearch · MySQL · Docker · JUnit · Git
