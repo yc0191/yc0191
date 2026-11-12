@@ -3,8 +3,8 @@
 ![Backend](https://img.shields.io/badge/Backend-1c2630?style=for-the-badge) ![Frontend](https://img.shields.io/badge/Frontend-1c2630?style=for-the-badge) [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yechanjeong0191) [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:yc01910181@gmail.com)
 
 ## 경력
-**주식회사 디원더 (빌딩케어)** · 2022.02 – 2026.06
-건물 임대 관리 SaaS 풀스택 개발
+**주식회사 디원더 (빌딩케어)** · 2022.02 – 2026.06<br>
+건물 임대 관리 SaaS 풀스택 개발<br>
 `Java` `Spring Boot` `MySQL` `Elasticsearch` `React` `TypeScript` `Docker` `JUnit`
 
 ## 진행 중
