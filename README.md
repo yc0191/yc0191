@@ -5,6 +5,7 @@
 ## 경력
 **주식회사 디원더 (빌딩케어)** · 2022.02 – 2026.06
 건물 임대 관리 SaaS 풀스택 개발
+`Java` `Spring Boot` `MySQL` `Elasticsearch` `React` `TypeScript` `Docker` `JUnit`
 
 ## 진행 중
 **[stock-reading](https://github.com/yc0191/stock-reading)** — 관심 ETF가 움직인 이유를 근거 기사·공시와 함께 메일로 알려 주는 서비스 (운영 중)
@@ -12,5 +13,4 @@
 - 장중 급변동 메일과 하루 두 번 데일리 브리핑을 실제 시세·뉴스로 발송
 - Terraform으로 AWS에 배포, GitHub Actions로 CI/CD
 
-## 기술
-Java · Spring Boot · Kafka · Python · PostgreSQL · React · TypeScript · Elasticsearch · MySQL · Docker · AWS · Terraform · GitHub Actions · JUnit · Git
+`Java` `Spring Boot` `Kafka` `Python` `PostgreSQL` `Claude API` `Docker` `AWS` `Terraform` `GitHub Actions`
